@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "465907561744",
+    "project_id": "account-system-f645d",
+    "storage_bucket": "account-system-f645d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465907561744:android:c7bf7903e89609d8e16195",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.FirebaseAuthTutorialCompleteProject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465907561744-23f3e0realsrfoebvs5c1trvobfbkhdu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbNpyf34QmuY8awjTKeZKCIEeGqXBzx9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465907561744-23f3e0realsrfoebvs5c1trvobfbkhdu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
