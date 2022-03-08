@@ -39,6 +39,8 @@ public class AuthManager : MonoBehaviour
  public TMP_InputField passwordRegisterVerifyField;
  public TMP_Text warningRegisterText;
 
+
+
  void Awake()
  {
   //Check that all of the necessary dependencies for Firebase are present on the system

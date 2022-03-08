@@ -27,6 +27,8 @@ public TMP_Text usernameText;
 
  public GameObject tutorialUI;
 
+ public GameObject genero;
+
 
 
  private void Awake()
@@ -52,6 +54,10 @@ public TMP_Text usernameText;
  {
   loginUI.SetActive(false);
   registerUI.SetActive(true);
+  
+  //para el select de genero
+  //var genero = transform.GetComponent<genero>();
+  //genero.options.Clear();
  }
 
  public void StartScreenLogin()

@@ -840,7 +840,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 141722524}
+  - component: {fileID: 141722526}
   - component: {fileID: 141722525}
   m_Layer: 0
   m_Name: UIManager
@@ -849,20 +849,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &141722524
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 141722523}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 738.59393, y: 384.87552, z: -17.897816}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &141722525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -883,6 +869,26 @@ MonoBehaviour:
   userUI: {fileID: 492379171}
   levelsUI: {fileID: 380889793}
   tutorialUI: {fileID: 378095090}
+  genero: {fileID: 937103188}
+--- !u!224 &141722526
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141722523}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -17.897816}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 738.59393, y: 384.87552}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &159391365
 GameObject:
   m_ObjectHideFlags: 0
@@ -6166,6 +6172,7 @@ GameObject:
   - component: {fileID: 937103192}
   - component: {fileID: 937103191}
   - component: {fileID: 937103190}
+  - component: {fileID: 937103193}
   m_Layer: 0
   m_Name: Genero
   m_TagString: Untagged
@@ -6290,6 +6297,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 937103188}
   m_CullTransparentMesh: 1
+--- !u!114 &937103193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937103188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02bdeec5cef4b45bd9866d2a0f09f7ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  usernameText: {fileID: 0}
+  loginUI: {fileID: 0}
+  registerUI: {fileID: 0}
+  menuUI: {fileID: 0}
+  startUI: {fileID: 0}
+  userUI: {fileID: 0}
+  levelsUI: {fileID: 0}
+  tutorialUI: {fileID: 0}
+  genero: {fileID: 0}
 --- !u!1 &963694017
 GameObject:
   m_ObjectHideFlags: 0
